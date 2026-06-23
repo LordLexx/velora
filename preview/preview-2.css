@@ -1,0 +1,90 @@
+*{
+	--body-font: "Inter", Helvetica, Arial, sans-serif;
+	--body-font-size: 17px;
+	--heading-font: "Inter", Helvetica, Arial, sans-serif;  
+	--heading-font-weight: 600;
+}
+
+body {
+	padding: 0;
+  	line-height: 1.6em;
+}
+h1{
+	letter-spacing: -.06em;
+}
+.de-preview{
+	border-radius: var(--rounded-1);
+	-moz-border-radius: var(--rounded-1);
+	-webkit-border-radius: var(--rounded-1);
+	position: relative;
+	overflow: hidden;	
+	margin: 0 auto;
+	width: 800px;
+}
+
+.de-subtitle{
+	font-weight: 300;
+	display: inline-block;
+	padding: 3px 25px;
+	border: solid 1px rgba(255, 255, 255, .4);
+	border-radius:30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+}
+
+.de-ss{
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+}
+
+.d-ss-1,.d-ss-2,.d-ss-3{
+	position: absolute;
+	width: 50%;
+	/-webkit-box-shadow: 0 10px 30px rgb(0 19 87 / 25%);
+	  -moz-box-shadow: 0 10px 30px rgb(0 19 87 / 25%);
+	  box-shadow: 0 10px 30px rgb(0 19 87 / 25%);
+
+}
+.d-ss-1{
+	top:0;
+	left: 65%;
+	z-index: 3;
+}
+.d-ss-2{
+	top: 10%;
+	left: 25%;
+	z-index: 2;
+}
+.d-ss-3{
+	top: 20%;
+	left: -15%;
+	z-index: 1;
+}
+
+.d-deco-1,.d-deco-2,.d-deco-3{
+	position: absolute;
+}
+
+.d-deco-1{
+	width: 100px;
+	top:195px;
+	right: 60px;
+}
+
+.d-deco-2{
+	width: 100px;
+	top:480px;
+	left: 60px;
+}
+
+.de-screenshots{
+	position: relative;
+	height: 900px;
+}
+
+.de-screenshots img{
+	position: absolute;
+	width: 1220px;
+	top:0;
+}
